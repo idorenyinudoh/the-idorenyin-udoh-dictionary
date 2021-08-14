@@ -1,7 +1,10 @@
 body {
+    height: 100vh;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: -0.5px;
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
 }
 header {
     border-bottom: 2px solid #000;
@@ -13,4 +16,14 @@ h1 {
     font-weight: 500;
     font-size: 2rem;
     text-align: center;
+}
+footer {
+    border-top: 2px solid #000;
+    padding: calc(10px + 1vw);
+    background: #673ab780;
+    text-align: center;
+}
+p {
+    margin: 0;
+    font-size: 18px;
 }
