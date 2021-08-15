@@ -17,6 +17,19 @@ h1 {
     font-size: 2rem;
     text-align: center;
 }
+#search {
+    display: block;
+    width: 80%;
+    margin: calc(50px + 1vw) auto;
+    padding: 15px 10px;
+    border: 2px solid #000;
+    font-size: 20px;
+    font-family: inherit;
+    letter-spacing: inherit;
+}
+#search:focus {
+    outline: none;
+}
 footer {
     border-top: 2px solid #000;
     padding: calc(10px + 1vw);
