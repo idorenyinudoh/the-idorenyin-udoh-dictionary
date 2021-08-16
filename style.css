@@ -20,6 +20,7 @@ h1 {
 #search {
     display: block;
     width: 80%;
+    max-width: 700px;
     margin: calc(50px + 1vw) auto;
     padding: 15px 10px;
     border: 2px solid #000;
